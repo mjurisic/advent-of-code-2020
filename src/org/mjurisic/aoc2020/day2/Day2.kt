@@ -10,7 +10,7 @@ class Day2 {
         fun main(args: Array<String>) {
             try {
                 var entries = ArrayList<Password>()
-                File("/home/jurisima/playground/aoc2020/src/org/mjurisic/aoc2020/day2/input2.txt").forEachLine {
+                File(ClassLoader.getSystemResource("resources/input2.txt").file).forEachLine {
                     val min = it.substring(0, it.indexOf("-"))
                     val max = it.substring(it.indexOf("-") + 1, it.indexOf(" "))
                     val letter = it.substring(it.indexOf(" ") + 1, it.indexOf(":"))
@@ -26,7 +26,6 @@ class Day2 {
                 }
 
                 println(entries.filter { it.isValidV2() }.size)
-
 
             } catch (e: Exception) {
                 e.printStackTrace()

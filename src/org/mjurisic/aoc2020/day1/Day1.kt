@@ -10,7 +10,7 @@ class Day1 {
         fun main(args: Array<String>) {
             try {
                 var entries = ArrayList<Int>()
-                File("/home/jurisima/playground/aoc2020/src/org/mjurisic/aoc2020/day1/input1-1.txt").forEachLine {
+                File(ClassLoader.getSystemResource("resources/input1-1.txt").file).forEachLine {
                     entries.add(Integer.parseInt(it))
                 }
 
