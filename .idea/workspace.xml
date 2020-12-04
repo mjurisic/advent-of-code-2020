@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="501aaa74-10a9-4f31-b5fb-d4cfeff6d7f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/mjurisic/aoc2020/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/mjurisic/aoc2020/input2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="501aaa74-10a9-4f31-b5fb-d4cfeff6d7f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +38,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/org/mjurisic/aoc2020/day2" />
+      <recent name="$PROJECT_DIR$/src/org/mjurisic/aoc2020/day1" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="org.mjurisic.aoc2020" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.mjurisic.aoc2020.day1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/org/mjurisic/aoc2020" />
@@ -133,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607080909233</updated>
-      <workItem from="1607080914086" duration="4177000" />
+      <workItem from="1607080914086" duration="4418000" />
     </task>
     <servers />
   </component>
@@ -165,22 +168,22 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2983" y="453" width="424" height="478" key="FileChooserDialogImpl/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607081241831" />
-    <state width="2518" height="393" key="GridCell.Tab.0.bottom" timestamp="1607093645588">
+    <state width="2518" height="393" key="GridCell.Tab.0.bottom" timestamp="1607093900111">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607093645588" />
-    <state width="2518" height="393" key="GridCell.Tab.0.center" timestamp="1607093645588">
+    <state width="2518" height="393" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607093900111" />
+    <state width="2518" height="393" key="GridCell.Tab.0.center" timestamp="1607093900111">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607093645588" />
-    <state width="2518" height="393" key="GridCell.Tab.0.left" timestamp="1607093645588">
+    <state width="2518" height="393" key="GridCell.Tab.0.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607093900111" />
+    <state width="2518" height="393" key="GridCell.Tab.0.left" timestamp="1607093900111">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607093645588" />
-    <state width="2518" height="393" key="GridCell.Tab.0.right" timestamp="1607093645588">
+    <state width="2518" height="393" key="GridCell.Tab.0.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607093900111" />
+    <state width="2518" height="393" key="GridCell.Tab.0.right" timestamp="1607093900111">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607093645588" />
+    <state width="2518" height="393" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607093900111" />
     <state x="2683" y="273" width="1024" height="839" key="SettingsEditor" timestamp="1607081185729">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>

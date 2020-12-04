@@ -25,7 +25,7 @@ class Day2 {
                     )
                 }
 
-                println(entries.filter { it.isValid() }.size)
+                println(entries.filter { it.isValidV2() }.size)
 
 
             } catch (e: Exception) {
@@ -44,5 +44,9 @@ class Password(var min: Int, var max: Int, var letter: Char, var password: Strin
     fun isValid():Boolean {
         val occurences = password.filter { it == letter }.length
         return occurences in min..max
+    }
+
+    fun isValidV2():Boolean {
+        return (password[min-1] == letter).xor(password[max-1] == letter)
     }
 }
