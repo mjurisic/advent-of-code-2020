@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lBqcF4UGwrLRWXYDXUCbfLIACm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -97,22 +101,22 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2983" y="453" width="424" height="478" key="FileChooserDialogImpl/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607081241831" />
-    <state width="2518" height="393" key="GridCell.Tab.0.bottom" timestamp="1607091967347">
+    <state width="2518" height="393" key="GridCell.Tab.0.bottom" timestamp="1607092133809">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607091967347" />
-    <state width="2518" height="393" key="GridCell.Tab.0.center" timestamp="1607091967347">
+    <state width="2518" height="393" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607092133809" />
+    <state width="2518" height="393" key="GridCell.Tab.0.center" timestamp="1607092133809">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607091967347" />
-    <state width="2518" height="393" key="GridCell.Tab.0.left" timestamp="1607091967347">
+    <state width="2518" height="393" key="GridCell.Tab.0.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607092133809" />
+    <state width="2518" height="393" key="GridCell.Tab.0.left" timestamp="1607092133809">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607091967347" />
-    <state width="2518" height="393" key="GridCell.Tab.0.right" timestamp="1607091967347">
+    <state width="2518" height="393" key="GridCell.Tab.0.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607092133809" />
+    <state width="2518" height="393" key="GridCell.Tab.0.right" timestamp="1607092133809">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607091967347" />
+    <state width="2518" height="393" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607092133809" />
     <state x="2683" y="273" width="1024" height="839" key="SettingsEditor" timestamp="1607081185729">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>

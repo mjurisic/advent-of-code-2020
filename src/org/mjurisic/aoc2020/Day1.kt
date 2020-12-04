@@ -16,8 +16,10 @@ class Day1 {
 
                 for (i in (0 until entries.size)) {
                     for (j in (i + 1 until entries.size - 1)) {
-                        if (entries[i] + entries[j] == 2020) {
-                            println(entries[i] * entries[j])
+                        for (k in (j + 1 until entries.size - 1)) {
+                            if (entries[i] +  entries[j] + entries[k] == 2020) {
+                                println(entries[i] * entries[j] * entries[k])
+                            }
                         }
                     }
                 }
