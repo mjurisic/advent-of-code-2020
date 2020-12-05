@@ -1,4 +1,4 @@
-package org.mjurisic.aoc2020.day2
+package org.mjurisic.aoc2020.day3
 
 import java.awt.Point
 import java.io.File
