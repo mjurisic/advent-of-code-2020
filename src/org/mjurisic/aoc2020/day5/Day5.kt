@@ -1,6 +1,7 @@
 package org.mjurisic.aoc2020.day5
 
 import java.io.File
+import java.util.function.Consumer
 
 class Day5 {
 
@@ -13,8 +14,15 @@ class Day5 {
                     seats.add(calculateSeat(it))
                 }
 
-                println(seats.map { it.getId() }.max())
+                seats.sortBy { it.getId() }
 
+                var previous = seats[0].getId()
+                seats.forEach(Consumer {
+                    if (it.getId() != previous + 1 && it.getId() != previous) {
+                        println(previous+1)
+                    }
+                    previous = it.getId()
+                })
 
             } catch (e: Exception) {
                 e.printStackTrace()
@@ -33,14 +41,12 @@ class Day5 {
 
             return Seat(it, Integer.parseInt(row, 2), Integer.parseInt(col, 2))
         }
-
-
     }
 }
 
 class Seat(var input: String, var row: Int, var column: Int) {
     override fun toString(): String {
-        return "Seat(input='$input', row=$row, column=$column)"
+        return "Seat(id=${getId()}input='$input', row=$row, column=$column)"
     }
 
     fun getId(): Int {
