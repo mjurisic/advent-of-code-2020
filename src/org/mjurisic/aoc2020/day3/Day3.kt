@@ -15,28 +15,40 @@ class Day3 {
                 }
 
                 val width = matrix[0].length
+                var treesResult:Long = 1
 
-                val pos = Point(0, 0)
-                var trees = 0
+                treesResult *= findTrees(matrix, width, 1,1)
+                treesResult *= findTrees(matrix, width, 3,1)
+                treesResult *= findTrees(matrix, width, 5,1)
+                treesResult *= findTrees(matrix, width, 7,1)
+                treesResult *= findTrees(matrix, width, 1,2)
 
-                while (pos.y < matrix.size) {
-                    println("testing position ${pos.x} ${pos.y}, char at pos=${matrix[pos.y][pos.x]}")
-                    if ('#' == matrix[pos.y][pos.x]) {
-                        println("BOOM, a tree")
-                        trees++
-                    }
-                    pos.x = pos.x + 3
-                    pos.y = pos.y + 1
-                    if (pos.x >= width) {
-                        pos.x = pos.x - width
-                    }
-                }
-
-                println(trees)
+                println(treesResult)
 
             } catch (e: Exception) {
                 e.printStackTrace()
             }
+        }
+
+        private fun findTrees(matrix: ArrayList<String>, width: Int, deltaX: Int, deltaY: Int): Int {
+            val position = Point(0, 0)
+            var trees = 0
+            while (position.y < matrix.size) {
+                if ('#' == matrix[position.y][position.x]) {
+                    trees++
+                }
+                calculateMovement(position, deltaX, deltaY)
+                if (position.x >= width) {
+                    position.x = position.x - width
+                }
+            }
+
+            return trees
+        }
+
+        private fun calculateMovement(pos: Point, deltaX: Int, deltaY: Int) {
+            pos.x = pos.x + deltaX
+            pos.y = pos.y + deltaY
         }
     }
 }
