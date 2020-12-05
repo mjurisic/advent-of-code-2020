@@ -1,6 +1,7 @@
 package org.mjurisic.aoc2020.day4
 
 import java.io.File
+import java.util.function.Consumer
 
 class Day4 {
 
@@ -62,6 +63,52 @@ class Passport(
 
     fun isValid(): Boolean {
         return byr != null && iyr != null && eyr != null && hgt != null && hcl != null && ecl != null && pid != null
+                && isValidBirthYear() && isValidIssueYear() && isValidExpirationYear() && isValidHeight() && isValidHairColor()
+                && isValidEyeColor() && isValidPid()
+    }
+
+    private fun isValidBirthYear(): Boolean {
+        return byr!!.toInt() in 1920..2020
+    }
+
+    private fun isValidIssueYear(): Boolean {
+        return iyr!!.toInt() in 2010..2020 && iyr!! < eyr!!
+    }
+
+    private fun isValidExpirationYear(): Boolean {
+        return eyr!!.toInt() in 2020..2030;
+    }
+
+    private fun isValidHeight(): Boolean {
+        hgt?.let {
+            if (it.endsWith("cm")) {
+                return it.substring(0, it.length - 2).toInt() in 150..193
+            } else if (it.endsWith("in")) {
+                return it.substring(0, it.length - 2).toInt() in 59..76
+            }
+        }
+        return false
+    }
+
+    private fun isValidHairColor(): Boolean {
+        hcl?.let {
+            return Regex("^#(?:[0-9a-f]){6}").matches(it)
+        }
+        return false
+    }
+
+    private fun isValidEyeColor(): Boolean {
+        ecl?.let {
+            return Regex("amb|blu|brn|gry|grn|hzl|oth").matches(it)
+        }
+        return false
+    }
+
+    private fun isValidPid(): Boolean {
+        pid?.let {
+            return Regex("\\d{9}").matches(it)
+        }
+        return false
     }
 
     override fun toString(): String {
