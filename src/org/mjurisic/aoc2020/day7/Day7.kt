@@ -1,4 +1,4 @@
-package org.mjurisic.aoc2020.day6
+package org.mjurisic.aoc2020.day7
 
 import java.io.File
 import java.util.function.Consumer
