@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="501aaa74-10a9-4f31-b5fb-d4cfeff6d7f5" name="Default Changelist" comment="" />
+    <list default="true" id="501aaa74-10a9-4f31-b5fb-d4cfeff6d7f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/mjurisic/aoc2020/day8/Day8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/mjurisic/aoc2020/day8/puzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/input8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,20 +61,7 @@
       <recent name="$PROJECT_DIR$/src/org/mjurisic/aoc2020" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.org.mjurisic.aoc2020.day6.Day7">
-    <configuration name="org.mjurisic.aoc2020.day1.Day1" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="aoc2020" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.mjurisic.aoc2020.day1.Day1" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.org.mjurisic.aoc2020.day8.Day8">
     <configuration name="org.mjurisic.aoc2020.day2.Day4" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="aoc2020" />
       <option name="VM_PARAMETERS" />
@@ -122,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.mjurisic.aoc2020.day8.Day8" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="aoc2020" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.mjurisic.aoc2020.day8.Day8" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.org.mjurisic.aoc2020.day8.Day8" />
         <item itemvalue="Kotlin.org.mjurisic.aoc2020.day6.Day7" />
         <item itemvalue="Kotlin.org.mjurisic.aoc2020.day5.Day5" />
         <item itemvalue="Kotlin.org.mjurisic.aoc2020.day4.Day4" />
         <item itemvalue="Kotlin.org.mjurisic.aoc2020.day2.Day4" />
-        <item itemvalue="Kotlin.org.mjurisic.aoc2020.day1.Day1" />
       </list>
     </recent_temporary>
   </component>
@@ -174,10 +179,10 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2941" y="501" width="517" height="382" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607194163028" />
-    <state x="2974" y="399" width="452" height="586" key="#com.intellij.ide.util.MemberChooser" timestamp="1607331960120">
+    <state x="2974" y="399" width="452" height="586" key="#com.intellij.ide.util.MemberChooser" timestamp="1607423252536">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2974" y="399" width="452" height="586" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607331960120" />
+    <state x="2974" y="399" width="452" height="586" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607423252536" />
     <state x="2932" y="482" width="525" height="420" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1607081305767">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
@@ -194,42 +199,42 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2983" y="453" width="424" height="478" key="FileChooserDialogImpl/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607081241831" />
-    <state width="2518" height="393" key="GridCell.Tab.0.bottom" timestamp="1607336325056">
+    <state width="2518" height="393" key="GridCell.Tab.0.bottom" timestamp="1607424001611">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607336325056" />
-    <state width="2518" height="393" key="GridCell.Tab.0.center" timestamp="1607336325056">
+    <state width="2518" height="393" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607424001611" />
+    <state width="2518" height="393" key="GridCell.Tab.0.center" timestamp="1607424001611">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607336325056" />
-    <state width="2518" height="393" key="GridCell.Tab.0.left" timestamp="1607336325056">
+    <state width="2518" height="393" key="GridCell.Tab.0.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607424001611" />
+    <state width="2518" height="393" key="GridCell.Tab.0.left" timestamp="1607424001610">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607336325056" />
-    <state width="2518" height="393" key="GridCell.Tab.0.right" timestamp="1607336325056">
+    <state width="2518" height="393" key="GridCell.Tab.0.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607424001610" />
+    <state width="2518" height="393" key="GridCell.Tab.0.right" timestamp="1607424001611">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="393" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607336325056" />
-    <state width="2518" height="483" key="GridCell.Tab.1.bottom" timestamp="1607190961734">
+    <state width="2518" height="393" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607424001611" />
+    <state width="2518" height="483" key="GridCell.Tab.1.bottom" timestamp="1607423985269">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="483" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607190961734" />
-    <state width="2518" height="483" key="GridCell.Tab.1.center" timestamp="1607190961734">
+    <state width="2518" height="483" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607423985269" />
+    <state width="2518" height="483" key="GridCell.Tab.1.center" timestamp="1607423985269">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="483" key="GridCell.Tab.1.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607190961734" />
-    <state width="2518" height="483" key="GridCell.Tab.1.left" timestamp="1607190961733">
+    <state width="2518" height="483" key="GridCell.Tab.1.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607423985269" />
+    <state width="2518" height="483" key="GridCell.Tab.1.left" timestamp="1607423985269">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="483" key="GridCell.Tab.1.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607190961733" />
-    <state width="2518" height="483" key="GridCell.Tab.1.right" timestamp="1607190961734">
+    <state width="2518" height="483" key="GridCell.Tab.1.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607423985269" />
+    <state width="2518" height="483" key="GridCell.Tab.1.right" timestamp="1607423985269">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="483" key="GridCell.Tab.1.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607190961734" />
-    <state x="3027" y="409" width="336" height="566" key="RollbackChangesDialog" timestamp="1607248667055">
+    <state width="2518" height="483" key="GridCell.Tab.1.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607423985269" />
+    <state x="3027" y="409" width="336" height="566" key="RollbackChangesDialog" timestamp="1607422913923">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="3027" y="409" width="336" height="566" key="RollbackChangesDialog/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607248667055" />
+    <state x="3027" y="409" width="336" height="566" key="RollbackChangesDialog/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607422913923" />
     <state x="2683" y="273" width="1024" height="839" key="SettingsEditor" timestamp="1607104714670">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
@@ -246,5 +251,16 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2944" y="341" width="501" height="703" key="refactoring.ChangeSignatureDialog/1920.0.2560.1440/0.360.1920.1080/4480.0.1920.1080@1920.0.2560.1440" timestamp="1607194500470" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/org/mjurisic/aoc2020/day8/Day8.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
