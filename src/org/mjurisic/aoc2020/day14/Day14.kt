@@ -9,7 +9,7 @@ class Day14 {
         @JvmStatic
         fun main(args: Array<String>) = try {
 
-            var mask= ""
+            var mask = ""
             val mem = HashMap<String, BigInteger>()
 
             File(ClassLoader.getSystemResource("resources/input14.txt").file).forEachLine {
@@ -20,7 +20,7 @@ class Day14 {
                     val address = groups[1]!!.value
                     val value = BigInteger(groups[2]!!.value)
 
-                    mem[address] = calculateValue(mask, value)
+                    writeValues(mem, address, mask, value)
                 }
 
             }
@@ -35,6 +35,54 @@ class Day14 {
 
         } catch (e: Exception) {
             e.printStackTrace()
+        }
+
+        private fun writeValues(
+            mem: java.util.HashMap<String, BigInteger>,
+            address: String,
+            bitmask: String,
+            value: BigInteger
+        ) {
+            val applyBitmask = applyBitmask(bitmask, BigInteger(address))
+            val explodeBitmask = explodeBitmask(applyBitmask, 0, listOf(applyBitmask.replace('X', '0')))
+            explodeBitmask.forEach{
+                mem[it] = value
+            }
+        }
+
+        private fun explodeBitmask(bitmask: String, start: Int, input: List<String>): List<String> {
+            val exploded = ArrayList<String>()
+
+            exploded.addAll(input)
+            if (start == bitmask.length) {
+                return exploded
+            }
+
+            if (bitmask[start] == 'X') {
+                for (i in 0 until exploded.size) {
+                    val replaced = exploded[i].replaceRange(start, start + 1, "1")
+                    exploded.add(replaced)
+                }
+            }
+            return explodeBitmask(bitmask, start + 1, exploded)
+
+        }
+
+        private fun applyBitmask(bitmask: String, address: BigInteger): String {
+            var result = ""
+            val reversedAddress = address.toString(2).reversed()
+            bitmask.reversed().forEachIndexed { i, c ->
+                var charValue = '0'
+                if (i < reversedAddress.length) {
+                    charValue = reversedAddress[i]
+                }
+                when (c) {
+                    '1' -> result += '1'
+                    '0' -> result += charValue
+                    'X' -> result += 'X'
+                }
+            }
+            return result.reversed()
         }
 
         private fun calculateValue(mask: String, value: BigInteger): BigInteger {
